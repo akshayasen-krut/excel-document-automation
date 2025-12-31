@@ -42,6 +42,13 @@ These concepts are applicable to any document automation workflow.
 
 ---
 
+## 🎥 Demo Video
+
+Watch the LinkedIn demo showing Excel-driven document automation in action:  
+👉 https://www.linkedin.com/posts/akshaya-sen_python-pythonautomation-documentautomation-activity-7406307855647084546-4wS2
+
+---
+
 ## 📦 Example Use Cases
 
 Using the same Excel → Python → Template pipeline, you can generate:
@@ -60,4 +67,15 @@ Only the **Excel structure** and **Word template** change — the automation log
 ---
 
 ## 📂 Project Structure
+
+excel-document-automation/
+├── src/
+│ └── generate_documents.py
+├── templates/
+│ └── certificate.docx
+├── sample_data/
+│ └── wshop.xlsx
+├── output/
+│ └── generated_docs/
+├── README.md
 
